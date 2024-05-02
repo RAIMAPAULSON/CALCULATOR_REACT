@@ -1,0 +1,123 @@
+.main {
+  padding: 30px 0px;
+}
+
+.calc-container {
+  background-color: #3c3d6a;
+  border: 1px solid white;
+  padding: 5px 20px 10px 20px;
+}
+
+.heading {
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+}
+
+.input-container {
+  width: 435px;
+  height: 500px;
+  height: 120px;
+  border-radius: 10px;
+  background-color: #0a0a20;
+  font-size: 45px;
+  font-weight: bolder;
+  color: white;
+  text-align: right;
+  padding-right: 8px;
+}
+
+.button-container {
+  background-color: #0a0a20;
+  margin-top: 10px;
+  width: 435px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.first-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 11px;
+}
+
+.second-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.btn-content {
+  width: 80px;
+  height: 75px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 5px 1px -2px rgba(196, 154, 107, 0.829);
+  background-color: antiquewhite;
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.reset-content {
+  width: 182px;
+  height: 75px;
+  margin-top: 12px;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 0 5px 1px -2px rgba(28, 34, 55, 0.829);
+  font-size: 23px;
+  font-weight: 600;
+  color: white;
+  background-color: #3c3d6a;
+}
+
+.equal-content {
+  width: 185px;
+  height: 75px;
+  margin-top: 12px;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 0 5px 1px -2px rgb(80, 4, 4);
+  background-color: antiquewhite;
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+  background-color: red;
+}
+
+.btn-content:hover {
+  background-color: rgb(197, 168, 145);
+
+}
+
+.reset-content:hover {
+  background-color: #29294f;
+}
+
+.equal-content:hover {
+  background-color: rgb(233, 56, 29);
+}
+
+.DEL {
+  width: 80px;
+  height: 75px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  background-color: #3c3d6a;
+}
+
+.DEL:hover {
+  background-color: #29294f;
+}
+
+.red-button {
+  border-radius: 12px;
+  padding-right: 25px;
+  background-color: #19193c;
+}
+
+.numbers {
+  padding-left: 75px;
+  color: white;
+  font-weight: 600;
+}
